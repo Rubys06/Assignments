@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="using_flex_css.css">
+	<style type="text/css">
+		.header_u{
+			list-style-type: none;
+			display: inline;
+			padding: 10px 30px ;
+			color: white;
+			border: none;
+		}
+		.header_u:hover{
+			background-color: grey;
+
+		}
+
+		ul{
+			text-decoration: none;
+		}
+
+		.header{
+			background: linear-gradient(to right,black, grey);
+			height: 50px;
+			margin: 0px;
+			/*position: sticky;
+			top:0px;*/
+		}
+		.side_b{
+			list-style-type: none;
+			padding: 15px 10px ;
+			color: black; 
+			display:;
+
+		}
+		.side_bar{
+			height: 700px;
+			background-color: grey;
+			width: 250px;
+			float: left;
+			position: fixed;
+			scroll-behavior: smooth;
+			overflow: scroll;
+		}
+		.side_b:hover{
+			background-color: black;
+			border: none;
+			border-radius: 0px 25px;
+			color: white;
+			/*box-shadow: 2px 2px 10px black;*/
+		}
+		a{
+			text-decoration: none;
+		}
+		h3:hover{
+			background-color: seagreen;
+			color: white;			
+		}
+		.heading{
+			float: right; 
+			color: grey;
+			padding: 5px;
+		}
+		.content_b{
+			width: 200px;
+			background-color: green;
+			height: 435px;
+			float: right;
+			padding: 20px;
+		}
+		.content_a{
+			float: left;
+			width: 700px;
+			/*margin-left: 300px;*/
+			padding-left: 300px;
+			/*border: 1px solid ;*/
+		}
+		button{
+			padding: 10px;
+			background-color: #33cc33;
+			color: white;
+			border: none;
+		}
+
+		button:hover{
+			background-color: #2eb82e;
+		}
+
+		h1{
+			text-align: center;
+		}
+		
+
+	</style>
+</head>
+<body>
+	<div style="height: 70px;">
+		<a href="" style="float: left;"><img src="12.png"></a>
+		<h3  class="heading" >THE WORLD'S LARGEST WEB DEVELOPER SITE</h3>
+	</div>
+	<div class="header" style="position: -webkit-sticky;top: 30px;">
+		<ul>
+			<a href="#" ><li class="header_u">HOME</li></a>
+			<a href="#" ><li class="header_u">HTML</li></a>
+			<a href="#" ><li class="header_u">CSS</li></a>
+			<a href="#" ><li class="header_u">JAVASCRIPT</li></a>
+			<a href="#" ><li class="header_u">SQL</li></a>
+			<a href="#" ><li class="header_u">PYTHON</li></a>
+			<a href="#" ><li class="header_u">PHP</li></a>
+			<a href="#" ><li class="header_u">MORE</li></a>
+		</ul>
+	</div>
+	<div class="contain">
+		<div class="side_bar">
+			<ul class="side_a"> 
+				<a href="#" ><li class="side_b">CSS TUTORIAL</li></a>
+				<a href="#" ><li class="side_b">CSS Home</li></a>
+				<a href="#" ><li class="side_b">CSS Introduction</li></a>
+				<a href="#" ><li class="side_b">CSS Syntax</li></a>
+				<a href="#" ><li class="side_b">CSS Selector</li></a>
+				<a href="#" ><li class="side_b">CSS Margin</li></a>
+				<a href="#" ><li class="side_b">CSS Padding</li></a>
+				<a href="#" ><li class="side_b">CSS Border</li></a>
+				<a href="#" ><li class="side_b">CSS Home</li></a>
+				<a href="#" ><li class="side_b">CSS Introduction</li></a>
+				<a href="#" ><li class="side_b">CSS Syntax</li></a>
+				<a href="#" ><li class="side_b">CSS Selector</li></a>
+				<a href="#" ><li class="side_b">CSS Margin</li></a>
+				<a href="#" ><li class="side_b">CSS Padding</li></a>
+				<a href="#" ><li class="side_b">CSS Border</li></a>
+				<a href="#" ><li class="side_b">CSS Home</li></a>
+				<a href="#" ><li class="side_b">CSS Introduction</li></a>
+				<a href="#" ><li class="side_b">CSS Syntax</li></a>
+				<a href="#" ><li class="side_b">CSS Selector</li></a>
+				<a href="#" ><li class="side_b">CSS Margin</li></a>
+				<a href="#" ><li class="side_b">CSS Padding</li></a>
+				<a href="#" ><li class="side_b">CSS Border</li></a>
+				<a href="#" ><li class="side_b">CSS Home</li></a>
+				<a href="#" ><li class="side_b">CSS Introduction</li></a>
+				<a href="#" ><li class="side_b">CSS Syntax</li></a>
+				<a href="#" ><li class="side_b">CSS Selector</li></a>
+				<a href="#" ><li class="side_b">CSS Margin</li></a>
+				<a href="#" ><li class="side_b">CSS Padding</li></a>
+				<a href="#" ><li class="side_b">CSS Border</li></a>
+			</ul>
+		</div>
+		<div class="content_a">
+			<h1 style="padding-left: 0px;">CSS overflow Property</h1>
+			<button style="float: left;">Previous</button>
+			<button style="float: right;">Next</button>
+			<br><br>
+			<hr>
+			<p>The position property specifies the type of positioning method used for an element (static, relative, fixed, absolute or sticky).</p>
+			<hr>
+		</div>
+		<div class="content_b">
+		<a href="" style="float: right;" ><img src="smily.jpg" width="193px" height="430px">	</a>
+		</div>
+	</div>
+	<div class="footer"></div>
+
+</body>
+</html>
